@@ -1,0 +1,23 @@
+{
+  "name": "web-scraper",
+  "version": "1.0.0",
+  "description": "Scrape quotes off of web pages and store them to JSON or database",
+  "main": "main.js",
+  "author": "aaron.wolbach@gmail.com",
+  "license": "ISC",
+  "scripts": {
+    "test": "test",
+    "scrape": "node ./src/brainyquotes.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/grugknuckle/web-scraper.git"
+  },
+  "dependencies": {
+    "axios": "^0.21.1",
+    "cheerio": "^1.0.0-rc.5",
+    "jsonfile": "^6.1.0",
+    "moment": "^2.29.1",
+    "mongoose": "^5.11.18"
+  }
+}
